@@ -10,18 +10,18 @@ class Car:
 
     # Метод вызова имени
     def sayname(self):
-        print(f'{self.name} {self.model} {self.year}')
+        print(f'{self.name} {self.year}')
 
     def __str__(self):
-        return (f'{self.name} {self.year}')
+        return (f'{self.model} {self.year}')
 
     def __len__(self):
         return len(self.model) + len(str(self.year))
 
 mers = Car('E390', 1999)
-mers2 = Car('C1050', 2003)
-
-mers.sayname()
-mers2.sayname()
-
-print(len(mers2))
+# mers2 = Car('C1050', 2003)
+#
+# mers.sayname()
+# mers2.sayname()
+#
+# print(len(mers2))
