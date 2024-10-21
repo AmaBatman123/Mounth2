@@ -2,8 +2,6 @@
 
 from Les1 import Car, mers
 
-
-
 class Factory():
     name = 'organ'
     def __init__(self, id):
